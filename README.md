@@ -11,6 +11,12 @@ To install All-In-One Music Structure Analyzer: https://github.com/mir-aidj/all-
 
 To install and test DMC on your own: https://github.com/csteinmetz1/automix-toolkit (clone + set up (modify sklearn --> scikit-learn in the setup.py) and test directly on your machine, dont forget to modify the paths) 
 
+## Docker Image
+
+The app can be quite complicated to install (because of All-In-One dependencies mostly). You can deploy it using a docker container, though it's only been tested on Ubuntu : 
+https://hub.docker.com/r/gaubiche/automashup/tags
+
+
 ## Tutorial
 
 > cd ./automashup-app
